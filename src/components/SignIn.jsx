@@ -66,7 +66,7 @@ const SignIn = () => {
         </div>
         <div className="w-full">
           <input
-            type="text"
+            type="password"
             alt="Password"
             placeholder="Password"
             {...register("password", { required: "Password is required" })}
